@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CEEKAYNEW EXPORT FLOW">
+ <parameter name="project" value="CEEKAYNEW"/>	
+ <test verbose="2" name="LOGIN">
+    <parameter name="testcase" value="AdminLogin"/>
+    <classes>    
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>  
+ <!--
+  <test verbose="2" name="Choose Liner">  
+    <parameter name="testcase" value="LinerChoose"/>    
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+     
+ <test verbose="2" name="Service Master">  
+    <parameter name="testcase" value="ServiceMasterAdd"/>    
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test> 
+ 
+ <test verbose="2" name="TariffCharge">  
+    <parameter name="testcase" value="TariffChargeAdd"/>    
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>   
+ 
+  <test verbose="2" name="BankMasterView">  
+    <parameter name="testcase" value="BankMasterView"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>      
+    </classes>
+ </test>
+  <test verbose="2" name="BankMasterModify">  
+    <parameter name="testcase" value="BankMasterModify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+  <test verbose="2" name="BankMasterDelete">  
+    <parameter name="testcase" value="BankMasterDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+
+  <test verbose="2" name="BankLocationMasterView">  
+    <parameter name="testcase" value="BankLocationMasterView"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+  <test verbose="2" name="BankLocationMasterModify">  
+    <parameter name="testcase" value="BankLocationMasterModify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+  <test verbose="2" name="BankLocationMasterDelete">  
+    <parameter name="testcase" value="BankLocationMasterDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test> 
+ <test verbose="2" name="PortMasterAdd">
+    <parameter name="testcase" value="PortMasterAdd"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ <test verbose="2" name="PortMasterModify">
+    <parameter name="testcase" value="PortMasterModify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test> 
+ <test verbose="2" name="PortMasterDelete">
+    <parameter name="testcase" value="PortMasterDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ <test verbose="2" name="LeadMasterAdd">
+    <parameter name="testcase" value="LeadMasterAdd"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ -->  
+</suite> <!-- Default suite -->

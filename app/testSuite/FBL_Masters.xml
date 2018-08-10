@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  
+
+<suite name="Masters Forms Test Suite">
+   <parameter name="project" value="FBL"/> 
+  
+  <test verbose="2" name="LOGIN">
+    <parameter name="testcase" value="AdminLogin"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+
+  <test verbose="2" name="VesselMasterAdd">
+    <parameter name="testcase" value="VesselMasterAdd"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+ <!--
+  <test verbose="2" name="CityMasterModify">
+    <parameter name="testcase" value="CityMasterModify"/>
+    <classes>
+    <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="CityMasterDelete">
+    <parameter name="testcase" value="CityMasterDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+ 
+   <test verbose="2" name="CountryMasterADD">
+    <parameter name="testcase" value="CountryMasterADD"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+    
+  <test verbose="2" name="CountryMasterModify">
+    <parameter name="testcase" value="CountryMasterModify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="CountryMasterDelete">
+    <parameter name="testcase" value="CountryMasterDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+   
+  <test verbose="2" name="CustomerMasterAdd">
+    <parameter name="testcase" value="CustomerMasterAdd"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+    
+  <test verbose="2" name="CustomerMasterModify">
+    <parameter name="testcase" value="CustomerMasterModify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="CustomerMasterDelete">
+    <parameter name="testcase" value="CustomerMasterDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="VesselMasterAdd">
+    <parameter name="testcase" value="VesselMasterAdd"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="VesselMasterModify">
+    <parameter name="testcase" value="VesselMasterModify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="VesselMasterDelete">
+    <parameter name="testcase" value="VesselMasterDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+   
+     <test verbose="2" name="PortMasterAdd">
+    <parameter name="testcase" value="PortMasterAdd"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="PortMasterModify">
+    <parameter name="testcase" value="PortMasterModify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="PortMasterDelete">
+    <parameter name="testcase" value="PortMasterDelete"/>2
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+   <test verbose="2" name="PackagesMasterAdd">
+    <parameter name="testcase" value="PackageMasterAdd"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+    
+  <test verbose="2" name="PackagesMasterModify">
+    <parameter name="testcase" value="PackageMasterModify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="PackagesMasterDelete">
+    <parameter name="testcase" value="PackageMasterDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+    <test verbose="2" name="CHAMasterAdd">
+    <parameter name="testcase" value="CHAMasterAdd"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+    
+  <test verbose="2" name="CHAMasterModify">
+    <parameter name="testcase" value="CHAMasterModify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="CHAMasterDelete">
+    <parameter name="testcase" value="CHAMasterDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>     
+     
+   <test verbose="2" name="CFSLocationMasterAdd">
+    <parameter name="testcase" value="CFSLocationMasterAdd"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+    
+  <test verbose="2" name="CFSLocationMasterModify">
+    <parameter name="testcase" value="CFSLocationMasterModify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="CFSLocationMasterDelete">
+    <parameter name="testcase" value="CFSLocationMasterDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+   
+  <test verbose="2" name="spiffyCalendarTest">
+    <parameter name="testcase" value="spiffyCalendarTest"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="htmlDatetimeSecTest">
+    <parameter name="testcase" value="htmlDatetimeSecTest"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+   -->
+  
+</suite> <!-- Default suite -->

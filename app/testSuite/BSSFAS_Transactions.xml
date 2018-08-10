@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BSSA EXPORT FLOW">
+ <parameter name="project" value="BSSFAS"/>
+  
+ <test verbose="2" name="LOGIN">
+    <parameter name="testcase" value="AdminLogin"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test> 
+  <!--
+ <test verbose="2" name="DebitNote_Modify">
+    <parameter name="testcase" value="DebitNote_Modify"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+-->
+ <test verbose="2" name="DebitNote_Delete">
+    <parameter name="testcase" value="DebitNote_Delete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+  
+ </suite> <!-- Default suite -->

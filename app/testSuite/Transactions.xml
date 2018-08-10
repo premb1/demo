@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Masters Forms Test Suite">
+ 
+ <test verbose="2" name="LOGIN">
+    <parameter name="testcase" value="AdminLogin"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>    
+    
+ <test verbose="2" name="EnquiryADD">
+    <parameter name="testcase" value="EnquiryADD"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="EnquiryVIEW">
+    <parameter name="testcase" value="EnquiryVIEW"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ <!--
+ <test verbose="2" name="EnquiryEDIT">
+    <parameter name="testcase" value="EnquiryEDIT"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="EnquiryDelete">
+    <parameter name="testcase" value="EnquiryDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Quotation Update">
+    <parameter name="testcase" value="Quotation Update"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Booking_Confirmation_ADD">
+    <parameter name="testcase" value="Booking_Confirmation_ADD"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Booking_Confirmation_VIEW">
+    <parameter name="testcase" value="Booking_Confirmation_VIEW"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Booking_Confirmation_EDIT">
+    <parameter name="testcase" value="Booking_Confirmation_EDIT"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Booking_Confirmation_Delete">
+    <parameter name="testcase" value="Booking_Confirmation_Delete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Create_Job CardADD">
+    <parameter name="testcase" value="Create_Job CardADD"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Create_Job CardVIEW">
+    <parameter name="testcase" value="Create_Job CardVIEW"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Create_Job CardEDIT">
+    <parameter name="testcase" value="Create_Job CardEDIT"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Create_Job CardDelete">
+    <parameter name="testcase" value="Create_Job CardDelete"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Confirm_JobCard_Update">
+    <parameter name="testcase" value="Confirm_JobCard_Update"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Confirm_JobCard_View">
+    <parameter name="testcase" value="Confirm_JobCard_View"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Generate_Invoice_ADD">
+    <parameter name="testcase" value="Generate_Invoice_ADD"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Invoice_Print">
+    <parameter name="testcase" value="Invoice_Print"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ <test verbose="2" name="Receipt_ADD">
+    <parameter name="testcase" value="Receipt_ADD"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+ 
+ 
+ <test verbose="2" name="Carting_Order_ADD">
+    <parameter name="testcase" value="Carting_Order_ADD"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+ </test>
+  
+   <test verbose="2" name="Carting_Order_VIEW">
+    <parameter name="testcase" value="Carting_Order_VIEW"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="Carting_Order_EDIT">
+    <parameter name="testcase" value="Carting_Order_EDIT"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+   <test verbose="2" name="Carting_Order_DELETE">
+    <parameter name="testcase" value="Carting_Order_DELETE"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  <test verbose="2" name="Stuffing_Plan_Proposed_ADD">
+    <parameter name="testcase" value="Stuffing_Plan_Proposed_ADD"/>
+    <classes>
+      <class name="com.eBMS.app.testEngine.TestCaseEngine"/>
+    </classes>
+  </test>
+  
+  -->
+  
+  
+</suite> <!-- Default suite -->
